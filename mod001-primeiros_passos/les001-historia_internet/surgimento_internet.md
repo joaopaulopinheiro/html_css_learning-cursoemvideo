@@ -37,7 +37,7 @@ Em **1º de janeiro de 1983 (conhecido como Flag Day)**, esse conjunto tornou-se
 
 ## A chave que abriu a internet para o mundo (1993)
 
-A internet era poderosa e **já tinha deixado de ser militar e passado a ser de pesquisa e conhecimento**, mas ainda era difícil de usar. Era preciso conhecer c**omandos complexos**.
+A internet era poderosa e **já tinha deixado de ser militar e passado a ser de pesquisa e conhecimento**, mas ainda era difícil de usar. Era preciso conhecer **comandos complexos**.
 
 > **Em 1989**, no CERN, **o cientista britânico Tim Berners-Lee**, buscava uma forma melhor de compartilhar documentos de pesquisa. Com isso em mente, **ele criou a WWW (World Wide Web)**, composta por três pilares da web, usados até hoje:
 
@@ -49,8 +49,7 @@ Ele decidiu não cobrar patentes por isso, *permitindo que qualquer pessoa crias
 
 Em paralelo, o primeiro navegador popular, o **Mosaic**, iria sendo criado por **Marc Andreessen** para visualizar esses novos conteúdos, mostrando imagens junto com o texto.
 
-
-![História da Internet Infográfico](historia_internet.png)
+![História da Internet Infográfico](img/infg_historia_internet.png)
 
 <!-- Perguntas (SRS): 
 
