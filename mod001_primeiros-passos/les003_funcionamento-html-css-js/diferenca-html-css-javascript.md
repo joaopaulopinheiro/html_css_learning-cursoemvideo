@@ -76,4 +76,4 @@ O JavaScript é, de fato, uma **Linguagem de Programação**. Seu foco é na **i
 - **Implementação:** Os scripts podem ser escritos dentro do documento HTML, entre as tags `<script>` e `</script>`, ou em arquivos com a extensão `.js`.
 
 
-![A Anatomia de um Site](img/anatomia_site.png)
+![A Anatomia de um Site](img/infg-anatomia-site.png)

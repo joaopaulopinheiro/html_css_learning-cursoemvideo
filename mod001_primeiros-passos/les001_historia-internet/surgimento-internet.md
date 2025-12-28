@@ -49,7 +49,7 @@ Ele decidiu não cobrar patentes por isso, *permitindo que qualquer pessoa crias
 
 Em paralelo, o primeiro navegador popular, o **Mosaic**, iria sendo criado por **Marc Andreessen** para visualizar esses novos conteúdos, mostrando imagens junto com o texto.
 
-![História da Internet Infográfico](img/infg_historia_internet.png)
+![História da Internet Infográfico](img/infg-historia-internet.png)
 
 <!-- Perguntas (SRS): 
 

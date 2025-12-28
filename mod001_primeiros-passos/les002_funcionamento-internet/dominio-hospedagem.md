@@ -8,7 +8,7 @@ A hospedagem é o **espaço em um servidor** onde os arquivos do seu site ficam 
 
 A URL é o **endereço completo e único** que você digita no navegador para **localizar uma página ou recurso específico na web**. Ela é composta por várias partes, incluindo **o protocolo (http/https), o subdomínio (como o www), o domínio e o caminho final para o arquivo**.
 
-![Anatomia de um Endereço URL](img/anatomia_url.png)
+![Anatomia de um Endereço URL](img/infg-anatomia-url.png)
 
 <!-- Perguntas (SRS):
 

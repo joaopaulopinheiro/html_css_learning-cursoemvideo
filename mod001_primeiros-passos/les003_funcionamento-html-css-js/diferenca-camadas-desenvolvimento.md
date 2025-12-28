@@ -19,4 +19,4 @@ Essa camada é chamada de **server-side**. A "infraestrutura oculta" cuida da **
 Refere-se à *capacidade de lidar com todas as camadas* de uma aplicação. **Combina as habilidades de Front-end e Back-end** para construir e manter uma solução web completa.
 
 
-![Infográfico Camadas Desenvolvimento](img/infg_camadas_desenvolvimento.png)
+![Infográfico Camadas Desenvolvimento](img/infg-camadas-desenvolvimento.png)

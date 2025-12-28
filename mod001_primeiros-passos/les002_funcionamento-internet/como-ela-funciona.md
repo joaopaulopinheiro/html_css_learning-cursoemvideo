@@ -32,7 +32,7 @@ Tudo começa quando **acessamos um site inserindo sua URL** (como https://www.go
 
 O navegador recebe esses pacotes e **começa a montar o site na tela.** Se o site tiver fotos e vídeos, ele faz **novos pedidos ao servidor** até que tudo apareça pronto para você.
 
-![Modelo cliente-servidor](img/infg_cliente_servidor.png)
+![Modelo cliente-servidor](img/infg-cliente-servidor.png)
 
 <!-- Perguntas (SRS):
 
