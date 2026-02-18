@@ -37,11 +37,11 @@ Contém informações de **metadados para máquinas, como título e estilos**. E
 
 Fornece metadados **não cobertos por outros elementos, como codificação de caracteres**, viewport para dispositivos móveis ou descrições para buscas web.
 
-> charset="UTF-8"
+```charset="UTF-8"```
 
 Define a codificação de caracteres. O padrão UTF-8 é essencial para **garantir que acentos e caracteres especiais de diversos idiomas sejam exibidos** corretamente.
 
-> name="viewport" content="width=device-width, initial-scale=1.0"
+```name="viewport" content="width=device-width, initial-scale=1.0"```
 
 Fornece instruções ao navegador sobre **como ajustar as dimensões e a escala da página**, sendo crucial para o design responsivo em dispositivos móveis.
 

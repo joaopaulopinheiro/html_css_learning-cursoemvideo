@@ -14,7 +14,7 @@ O navegador analisa as linhas de código e gera um resultado visual (o site em s
 Ela funciona baseada em marcações chamadas **tags (ou etiquetas)**, que geralmente vêm em pares: **uma de abertura e uma de fechamento (identificada por uma barra)**.
 
 ```html
-Exemplo de Anatomia: <tag parâmetro="valor">Conteúdo</tag>
+Exemplo de Anatomia: <tag atributo="valor">Conteúdo</tag>
 
 Ex1: <h1>Exemplo de título</h1>
 Ex2: <p>Exemplo de parágrafo</p>

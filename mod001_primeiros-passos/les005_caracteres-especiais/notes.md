@@ -14,10 +14,31 @@ São **notas explicativas ou trechos de código ignorados pelo navegador**. Serv
 
 Referências (ex: &uarr;) para símbolos reservados ou moedas, garantindo a exibição correta e **evitando que o navegador os confunda com tags**.
 
-> & + o código alfanumérico do caractere. Ex: &reg; ou &lt;
+> ***& + o código da sintaxe do caractere (@entity_name).***
+
+- &cent; --> "¢"
+- &copy; --> "©"
+- &yen;  --> "¥"
+
+> ***&# + o código numérico do caractere (@entity_number).***
+
+- &#162; --> "¢"
+- &#169; --> "©"
+- &#165;  --> "¥"
+
 
 # Emojis
 
 São ícones inseridos via **códigos Unicode hexadecimais** (ex: &#x1F604;). O site ```emojipedia.org``` é a referência ideal para encontrar esses códigos (codepoints).
 
-> &#x + o código unicode do emoji. Ex: &#x1F596; ou &#x1F913;
+> ***&#x + o código hexadecimal do emoji (Unicode)***
+
+- &#x1F94A; --> 🥊
+- &#x1F44A; --> 👊
+- &#x1F38A; --> 🎊
+
+> ***&# + o código decimal do emoji (Numérico)***
+
+- &#129354; --> 🥊
+- &#128074; --> 👊
+- &#127882; --> 🎊
