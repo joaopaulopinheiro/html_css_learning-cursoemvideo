@@ -1,13 +1,11 @@
 # Como funciona a HTML e as CSS?
 
-Um servidor retorna uma cópia de documentos HTML, CSS e JavaScript através da solicitação cliente-servidor.
+Um servidor retorna uma **cópia de documentos HTML, CSS e JavaScript através da solicitação cliente-servidor**.
 O navegador analisa as linhas de código e gera um resultado visual (o site em si).
-
 
 ## HTML (HyperText Markup Language)
 
 É uma ferramenta para **estruturar o conteúdo de uma página**. Seu foco principal é o conteúdo, como ***textos, títulos, imagens, vídeos, links, listas e tabelas.***
-
 
 ### Conteúdo em HTML
 
@@ -20,7 +18,6 @@ Ex1: <h1>Exemplo de título</h1>
 Ex2: <p>Exemplo de parágrafo</p>
 Ex3: <img src="foto.png" alt="Exemplo de foto">
 ```
-
 
 ### Estrutura básica de documento HTML
 
@@ -40,11 +37,9 @@ Todo arquivo HTML começa com uma estrutura padrão que inclui a declaração `<
 <html>
 ```
 
-
 ## CSS (Cascading Style Sheets)
 
 São usadas para configurar o **resultado visual dos elementos** criados no HTML. Seu foco é o design e estilo, definindo ***cores, fontes, tamanhos, posicionamento e organização.***
-
 
 ### Estilos em CSS
 
@@ -66,7 +61,6 @@ seletor {declaração} -> propriedade: valor;
 
 ```
 
-
 ## JavaScript (JS)
 
 O JavaScript é, de fato, uma **Linguagem de Programação**. Seu foco é na **interatividade** e comportamento dinâmico, permitindo criar ***menus, animações, popups, validações, etc.***
@@ -75,5 +69,28 @@ O JavaScript é, de fato, uma **Linguagem de Programação**. Seu foco é na **i
 
 - **Implementação:** Os scripts podem ser escritos dentro do documento HTML, entre as tags `<script>` e `</script>`, ou em arquivos com a extensão `.js`.
 
-
 ![A Anatomia de um Site](img/infg-anatomia-site.png)
+
+<!-- Perguntas (SRS):
+
+01. Como funciona o HTML? Qual é a estrutura básica de um elemento HTML?
+
+Ele funciona com base em tags, que geralmente vêm em pares: uma tag de abertura e uma tag de fechamento (identificada por uma barra).
+
+Exemplo de estrutura: <tag atributo="valor">Conteúdo</tag>
+
+02. Como funciona o CSS? Qual é a estrutura básica de uma declaração CSS?
+
+Ao contrário do HTML, o CSS funciona com base em seletores, propriedades e valores.
+
+Exemplo de estrutura:
+
+selector {               h1 {
+    property: value;       font-family: Arial;
+   |- declaration -|       font-size: 20pt;
+}
+
+03. Qual é o principal papel do navegador web no ecossistema da internet?
+
+Interpretar o código (HTML, CSS, JS) e renderizar o resultado visual para o usuário.
+-->

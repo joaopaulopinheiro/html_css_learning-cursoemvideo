@@ -16,16 +16,13 @@ A URL é o **endereço completo e único** que você digita no navegador para **
 
 Resposta: O domínio é o nome/endereço único do site, enquanto a hospedagem é o espaço no servidor onde os arquivos do site ficam armazenados e acessíveis.
 
-
 02. O que é um URL (Uniform Resource Locator)?
 
 Resposta:É o endereço completo de um recurso na web usado para localizar uma página ou recurso específico na web.
 
-
 03. O que é um TLD (Top-Level Domain)?
 
 Resposta: É a parte final de um nome de domínio, como .com, .org ou .br.
-
 
 04. Qual é a diferença entre um gTLD e um ccTLD?
 
