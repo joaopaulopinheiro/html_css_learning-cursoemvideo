@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EXE003 - Teste com Imagens</title>
-</head>
-<body>
-    <h1>Testando carga e Imagens</h1>
-    <p>Abaixo você vai ver uma imagem que está na mesma pasta.</p>
-    <img src="logo-html.png" alt="Logo HTML5">
-    <p>Podemos também carregar imagens que estão em sub-pastas.</p>
-    <img src="img/logo-css.png" alt="Logo CSS3">
-    <p>Também podemos carregar imagens externas</p>
-    <img src="https://a.thumbs.redditmedia.com/zDOFJTXd6fmlD58VDGypiV94Leflz11woxmgbGY6p_4.png" alt="Logo JavaScript"> <!-- URL -->
-</body>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>EXE003 - Teste com Imagens</title>
+  </head>
+  <body>
+      <h1>Manipulando imagens em HTML</h1>
+
+      <p>Podemos adicionar uma imagem que está na mesma pasta da seguinte forma:</p>
+      <img src="logo-html.png" alt="Logo HTML5">
+      <!-- src: se refere ao caminho do arquivo que será exibido -->
+      <!-- alt: se refere à um texto alternativo que será exibido caso a imagem não carregue -->
+
+      <p>Podemos também carregar imagens que estão em sub-pastas, dessa maneira:</p>
+      <img src="img/logo-css.png" alt="Logo CSS3">
+
+      <p>Também podemos carregar imagens de fontes externas, como essa:</p>
+      <img src="https://a.thumbs.redditmedia.com/zDOFJTXd6fmlD58VDGypiV94Leflz11woxmgbGY6p_4.png" alt="Logo JavaScript"> <!-- Usamos a URL inteira -->
+
+      <p>É possível também, inserir imagens que estão em uma pasta acima. Nessa situação, basta inserir, no atributo src(set) da tag, "../" e o caminho do arquivo.</p>
+      <!-- '../' volta uma pasta na estrutura de pastas -->
+  </body>
 </html>

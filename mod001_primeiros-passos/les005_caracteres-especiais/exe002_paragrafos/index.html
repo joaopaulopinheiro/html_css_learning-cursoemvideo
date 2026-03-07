@@ -8,33 +8,25 @@
 <body>
     <h1>Parágrafos e quebras de linha</h1>
     <hr>
-    <p>Você pode escrever 
-        um parágrafo de 
-        qualquer jeito. 
-        Basta colocar tudo 
-        no meio do par de tags
-        &lt;p&gt; e &lt;/p&gt; <!-- LESS THAN / GREATER THAN -->
+    <p>
+       Um parágrafo dentro das tags &lt;p&gt;
+       e &lt;/p&gt; podem serem escritos de
+       qualquer jeito. Contudo, no navegador,
+       os caracteres não suas quebram linhas.
     </p>
     <p>
-        Se precisar quebrar
-        o texto em algum lugar
-        específico <br> como esse,
-        você pode usar a tag &lt;br&gt;.
+        Caso precise quebrar o texto em algum
+        lugar específico <br> como esse, use
+        a tag &lt;br&gt; para isso. Mas, usar
+        muitas em sequência não é recomendado.
     </p>
-    <p>Vamos adicionar alguns símbolos especiais: 
-        &reg; 
-        &copy; 
-        &trade;
-        &euro; 
-        &pound; 
-        &yen; 
-        &cent;
-        &Delta;
-        &uarr; 
+    <p>Podemos adicionar HTML Entities (símbolos) da seguinte forma:
+        &reg;     <!-- com sintaxe de nome -->
+        &#169;    <!-- com sintaxe de número -->
     </p>
-    <p>Vamos adicionar alguns emoji:
-        &#x1F596;
-        &#x1F913;
+    <p>Agora, para adicionar os emojis, existem duas formas:
+        &#x1F596; <!-- formato decimal (numérico)-->
+        &#127882; <!-- formato hexadecimal (unicode)-->
     </p>
 </body>
 </html>
