@@ -5,19 +5,18 @@
 **Informa ao navegador qual é a versão do HTML que está sendo utilizada.** Ele ajuda o navegador a interpretar corretamente o código e garantir que a página seja exibida da maneira esperada.
 
 ```html
-<!DOCTYPE html> 
-Informa que a versão utilizada é a versão HTML5.
+<!DOCTYPE html> <!-- Informa que a versão utilizada é a versão HTML5. -->
 ```
 
 ## Elemento < html >
 
-É a raiz de um documento HTML. **Todos os outros elementos devem ser seus descendentes** e o atributo lang é vital para acessibilidade.
+É a raiz de um documento HTML. **Todos os outros elementos devem ser seus descendentes** e o atributo lang informa a linguagem padrão da página.
 
 ```html
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pt-br">
-    Todo os outros elementos vêm aqui dentro.
-<html>
+  <!-- Todo os outros elementos vêm aqui dentro. -->
+</html>
 ```
 
 ## Elemento < head >
@@ -25,35 +24,25 @@ Informa que a versão utilizada é a versão HTML5.
 Contém informações de **metadados para máquinas, como título e estilos**. Ele deve ser o primeiro filho de html e existe apenas um em cada documento web.
 
 ```html
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        Conteúdo não visível pelo usuário.
-    </head>
-<html>
+  <head>
+    <!-- Conteúdo não visível pelo usuário. -->
+  </head>
+</html>
 ```
 
 ### Elemento < meta >
 
-Fornece metadados **não cobertos por outros elementos, como codificação de caracteres**, viewport para dispositivos móveis ou descrições para buscas web.
+Fornece metadados não cobertos por outros elementos, como **codificação de caracteres, viewport para dispositivos móveis ou descrições para buscas web.**
 
-```charset="UTF-8"```
+> `charset="UTF-8"`
 
 Define a codificação de caracteres. O padrão UTF-8 é essencial para **garantir que acentos e caracteres especiais de diversos idiomas sejam exibidos** corretamente.
 
-```name="viewport" content="width=device-width, initial-scale=1.0"```
+> `name="viewport" content="width=device-width, initial-scale=1.0"`
 
-Fornece instruções ao navegador sobre **como ajustar as dimensões e a escala da página**, sendo crucial para o design responsivo em dispositivos móveis.
-
-```html
-<!DOCTYPE html> 
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-<html>
-```
+Fornece instruções ao navegador sobre **como ajustar as dimensões e a escala da página**.
 
 ### Elemento < title >
 
@@ -66,20 +55,20 @@ Representa **o conteúdo principal que é visível ao usuário**. Pode existir a
 ```html
 <!DOCTYPE html>
 <html lang="pt-br">
-    ...
-    <body>
-        Conteúdo visível pelo usuário.
-    </body>
-<html>
+  ...
+  <body>
+    <!-- Conteúdo visível pelo usuário. -->
+  </body>
+</html>
 ```
 
-### Elemento < h1-h6 > (Heading)
+### Elemento < h1-h6 >
 
-Representam **seis níveis hierárquicos de títulos de seções**, onde h1 é o mais importante. Ajudam leitores de tela a construir sumários das páginas web.
+Representa **seis níveis hierárquicos de títulos de seções**, onde h1 é o mais importante e de maior hierarquia.
 
 ### Elemento < hr >
 
-Define uma quebra temática entre parágrafos, **geralmente exibida como uma linha horizontal**. Serve para separar tópicos distintos dentro de uma seção.
+Define uma quebra temática entre parágrafos, **geralmente exibida como uma linha horizontal**.
 
 ### Elemento < p >
 

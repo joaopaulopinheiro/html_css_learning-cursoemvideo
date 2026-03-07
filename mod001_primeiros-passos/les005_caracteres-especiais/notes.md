@@ -4,41 +4,51 @@ Força quebras de linha. Use-a apenas se a quebra for parte do conteúdo (como p
 
 # Comentários em HTML
 
-São **notas explicativas ou trechos de código ignorados pelo navegador**. Servem para documentar o código e *não aparecem na página renderizada*.
+São **notas explicativas ou trechos de código ignorados pelo navegador**. Servem para documentar o código e _não aparecem na página renderizada_.
 
-```html 
+```html
 <!-- essa linha não será renderizado no navegador. -->
 ```
 
 # HTML Entities (Caracteres Especiais)
 
-Referências (ex: &uarr;) para símbolos reservados ou moedas, garantindo a exibição correta e **evitando que o navegador os confunda com tags**.
+Referências para símbolos reservados ou moedas, garantindo a exibição correta e **evitando que o navegador os confunda com tags**.
 
-> ***& + o código da sintaxe do caractere (@entity_name).***
+> _& + o código da sintaxe do caractere (@entity_name)._
 
 - &cent; --> "¢"
 - &copy; --> "©"
-- &yen;  --> "¥"
+- &yen; --> "¥"
 
-> ***&# + o código numérico do caractere (@entity_number).***
+> _&# + o código numérico do caractere (@entity_number)._
 
 - &#162; --> "¢"
 - &#169; --> "©"
-- &#165;  --> "¥"
-
+- &#165; --> "¥"
 
 # Emojis
 
-São ícones inseridos via **códigos Unicode hexadecimais** (ex: &#x1F604;). O site ```emojipedia.org``` é a referência ideal para encontrar esses códigos (codepoints).
+São ícones inseridos via **códigos Unicode hexadecimais**. O site `emojipedia.org` é a referência ideal para encontrar esses códigos (codepoints).
 
-> ***&#x + o código hexadecimal do emoji (Unicode)***
+> **_&#x + o código hexadecimal do emoji (Unicode)_**
 
 - &#x1F94A; --> 🥊
 - &#x1F44A; --> 👊
 - &#x1F38A; --> 🎊
 
-> ***&# + o código decimal do emoji (Numérico)***
+> **_&# + o código decimal do emoji (Numérico)_**
 
 - &#129354; --> 🥊
 - &#128074; --> 👊
 - &#127882; --> 🎊
+
+<!-- Perguntas (SRS):
+
+01. Quais são os padrões de caracteres usados ​​para representar símbolos reservados ou especiais em HTML?
+
+R: Entidades HTML
+
+02. Ao converter um código emoji Unicode (por exemplo, U+1F604) para HTML, qual prefixo deve ser usado?
+
+R: O prefixo &#x. O prefixo &#x é usado para formatos decimais.
+-->
