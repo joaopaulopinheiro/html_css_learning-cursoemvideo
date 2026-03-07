@@ -1,15 +1,14 @@
 # Semântica em HTML5
 
-É a prática de usar as tags HTML **priorizando o significado do conteúdo em vez de sua forma visual**. O objetivo é melhorar a *acessibilidade, a SEO (Search Engine Optimization) e a manutenção do código*.
+É a prática de usar as tags HTML **priorizando o significado do conteúdo em vez de sua forma visual**.
 
-Algumas tags em HTML4 que se tornaram **obsoletas**, eram puramente visuais, como as tag ```<font>, <center> e <u>```. Na HTML5, as tags carregam sentido, deixando a apresentação estética para o CSS.
-
+Algumas tags em HTML4 que se tornaram **obsoletas**, eram puramente visuais, como as tag `<font>, <center> e <u>`. Em HTML5, as tags _carregam sentido_, deixando essa apresentação estética para o CSS.
 
 # Formatações em HTML
 
-## Elemento &lt;strong&gt;
+## Elemento &lt;strong&gt; [Texto importante]
 
-Indica que o conteúdo **tem forte importância, seriedade ou urgência**. Diferente da tag ```<b>```, ela é *semântica e não foca apenas na estética do negrito*.
+Indica que o conteúdo **tem forte importância, seriedade ou urgência**. Diferente da tag `<b>`, ele é _semântico e não foca apenas na estética do negrito_.
 
 <!-- INFO: Exemplo -->
 
@@ -17,11 +16,9 @@ Indica que o conteúdo **tem forte importância, seriedade ou urgência**. Difer
 <p><strong>Aviso:</strong> tenha cuidado!</p>
 ```
 
+## Elemento &lt;em&gt; [Itálico / Ênfase]
 
-## Elemento &lt;em&gt; (Itálico / Ênfase)
-
-Representa uma **ênfase no conteúdo, alterando o tom de voz da sentença**. Ela é semântica e geralmente exibe o texto em itálico, diferenciando-se da tag ```<i>```, que *representa texto em um tom ou humor alternativo, como termos técnicos ou nomes científicos*.
-
+Representa uma **ênfase no conteúdo, alterando o tom de voz da sentença**. Ela é semântica e exibe o texto em itálico, diferenciando-se da tag `<i>`, que _representa texto em um tom ou humor alternativo, como termos técnicos ou nomes científicos_.
 
 <!-- INFO: Exemplo -->
 
@@ -31,29 +28,27 @@ Representa uma **ênfase no conteúdo, alterando o tom de voz da sentença**. El
 <p>A filosofia <i lang="jp">Kaizen</i> é essencial.</p>
 ```
 
-
 ## Elemento &lt;mark&gt;
 
 Representa um texto **destacado ou marcado por sua relevância** em um determinado contexto.
 
-
 <!-- INFO: Exemplo -->
 
 ```html
-<p>A Guerra Fria foi uma batalha <mark>tecnológica</mark> entre os EUA e a URSS.</p>
+<p>
+  A Guerra Fria foi uma batalha <mark>tecnológica</mark> entre os EUA e a URSS.
+</p>
 ```
-
 
 ## Elemento &lt;small&gt;
 
-Utilizada para **comentários secundários, letras miúdas ou avisos legais (como copyright)**.
+Utilizada para **comentários secundários, letras miúdas ou avisos legais (como direitos autorais)**.
 
 <!-- INFO: Exemplo -->
 
 ```html
-<p><small>O conteúdo é licencidado pela licença BY-ND</small></p>
+<p><small>O conteúdo é licencidado pela licença BY-ND.</small></p>
 ```
-
 
 ## Elemento &lt;del&gt;
 
@@ -65,13 +60,11 @@ Indica que um intervalo de texto **foi deletado do documento e não deve ser con
 
 ## Elemento &lt;ins&gt;
 
-Representa um **um texto que foi adicionado ao documento**. Ela é semântica e geralmente exibe o texto sublinhado, diferenciando-se da tag ```<u>```, que *representa anotação não textual, como erros de ortografia*.
-
+Representa **um texto que foi adicionado ao documento**. Ela é semântica e exibe o texto sublinhado, diferenciando-se da tag `<u>`, que _representa anotação não textual, como erros de ortografia_.
 
 <!-- INFO: Exemplo -->
-
 ```html
-<p>Gosto de <del>Frango</del> <ins>Ovo</ins>!</p>
+<p>Gosto de <del>Frango</del> <ins>Ovo</ins> com <u>pharofa</u>!</p>
 ```
 
 ## Elementos &lt;sup&gt; e &lt;sub&gt;
@@ -79,52 +72,59 @@ Representa um **um texto que foi adicionado ao documento**. Ela é semântica e 
 O primeiro, **define um texto sobrescrito, posicionado acima da linha de base**. Já o segundo, **define um texto subscrito, posicionado abaixo da linha de base com fonte menor**.
 
 <!-- INFO: Exemplo -->
-
 ```html
 <p>Na matemática, temos X<sup>2</sup> e na Química, temos H<sub>2</sub>O!</p>
 ```
-
 
 ## Elementos &lt;code&gt; e &lt;pre&gt;
 
 O primeiro, **delimita fragmentos curtos de código de computador e possui valor semântico**. Já o segundo, **representa texto pré-formatado, mantendo exatamente os espaços, tabulações e quebras de linha digitados no arquivo HTML**.
 
 <!-- INFO: Exemplo -->
-
 ```html
-<p>O comando <code>console.log</code> exibe o conteúdo na tela.</p>
+<p>O comando <code>console.log()</code> exibe o conteúdo na tela.</p>
 
-<pre>O TEX  T O VAI  FI C A R  EXATA   M   E   N TE ASSIM</pre>
+<pre>O TEX   T  O VAI F  I C AR  A SS I M  N  O NAV  E   G AD  OR</pre>
 ```
-
 
 ## Elementos &lt;q&gt; e &lt;blockquote&gt;
 
-O primeiro, **é usado para citações curtas inseridas no meio de um parágrafo, é semântico e o navegador insere automaticamente as aspas.**. Já o segundo, **indica uma citação longa em bloco, geralmente renderizada com um recuo lateral**.
+O primeiro, **é usado para citações curtas inseridas no meio de um parágrafo, é semântico** e o navegador insere automaticamente as aspas. Já o segundo, **indica uma citação longa em bloco**, geralmente renderizada com um recuo lateral.
 
-```cite=""```
+> `cite=""`
 
-> Indica o **link da fonte original** para fornecer contexto e crédito ao autor da informação.
+Indica o **link da fonte original** para fornecer contexto e crédito ao autor da informação.
 
 <!-- INFO: Exemplo -->
-
 ```html
 <p>Fulano: <q>somos aquilo que nos deixamos ser</q></p>
 
 <blockquote cite="https://sitequalquer.com/index.html">
-    A vida é bela, pois com ela, podemos aprender, ensinar e se relacionar com outros seres, vivos ou mortos.
+  A vida é bela, pois com ela, podemos aprender, ensinar e se relacionar com outros seres, vivos ou mortos.
 </blockquote>
 ```
 
-
 ## Elemento &lt;abbr&gt;
 
-Representa uma abreviação ou acrônimo, como siglas e mnemônicos.
+Representa uma **abreviação ou acrônimo**, como siglas e mnemônicos.
 
-```title=""```
+> `title=""`
 
-> Fornece **o significado completa do termo**, que aparece quando o usuário passa o mouse sobre a sigla.
+Fornece **o significado completo do termo**, que aparece quando o usuário passa o mouse sobre a sigla.
 
 ```html
 <p>A <abbr title="HyperText Markup Language">HTML</abbr> é usada para criar sites.</p>
+```
+
+## Elemento &lt;address&gt;
+
+Representa **informações de contato, como endereço físico, e-mail, telefone entre outros** detalhes de contato relacionados ao autor do conteúdo da página.
+
+```html
+<address>
+  <p>João Paulo Pinheiro</p>
+  <p>Rua dos Desenvolvedores, 456</p>
+  <p>São Paulo, SP - CEP: 01234-567</p>
+  <p>Telefone: (00) 94002-8922</p>
+</address>
 ```
