@@ -6,39 +6,33 @@
     <title>EXE007 - Formatação de Textos</title>
     <style>
         mark {
-            background-color: limegreen;
+            background-color: rgb(114, 38, 19);
         }
     </style>
 </head>
 <body>
-    <h1>Principais formatações</h1>
-    
+    <h1>Principais formatações em HTML5</h1>
+
     <h2>Negrito / Destaque</h2>
-    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (não semântica).</p>
-    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semântica).</p>
+    <p>Em HTML5, a tag <strong>&lt;strong&gt;</strong> é preferida para indicar destaque, pois é semântica. Ao contrário da tag <b>&lt;b&gt;</b> (não semântica).</p>
 
     <h2>Itálico / Ênfase</h2>
-    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p>
-    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica).</p>
+    <p>A tag <em>&lt;em&gt;</em> é preferida para indicar ênfase, pois é semântica. Ao contrário da tag <i>&lt;i&gt;</i> (não semântica) que representa texto em tom alternativo, como termos técnicos.</p>
 
     <h2>Texto marcado</h2>
-    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag MARK.</p>
-    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final.</p>
+    <p>A tag &lt;mark&gt; é usada para marcar texto com relevância, como na frase: "A Guerra Fria foi uma batalha <mark>tecnológica</mark> entre os EUA e a URSS."</p>
 
     <h2>Texto grande e pequeno</h2>
-    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+    <p>Em HTML4 a tag <big>&lt;big&gt;</big> era usada para criar textos grandes, antes de ser tornar obsoleta.</p>
+    <p>Em HTML5, criamos um texto pequeno usando a tag <small>&lt;small&gt;</small></p>
 
     <h2>Texto deletado</h2>
-    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+    <p>Podemos marcar um texto como excluído para indicar que ele deve ser lido, mas não considerado, usando a tag <del>&lt;del&gt;</del></p>
 
     <h2>Texto inserido</h2>
-    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
-    <p>Existe também o <u>sublinhado</u> com a tag U (não semântica)</p>
+    <p>Usamos a tag <ins>&lt;ins&gt;</ins> para marcar um texto como inserido, pois é semântica. Ao contrário da tag <u>&lt;u&gt;</u> (não semântica) que representa anotação não textual, como erros de ortografia.</p>
 
-    <h2>Texto sobrescrito</h2>
-    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
-
-    <h2>Texto subscrito</h2>
-    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+    <h2>Texto sobrescrito e subscrito</h2>
+    <p>Por fim, usamos a tag <sup>&lt;sup&gt;</p>sup> para texto sobrescrito e <sub>&lt;sub&gt;</sub> para texto subscrito.</p>
 </body>
 </html>
