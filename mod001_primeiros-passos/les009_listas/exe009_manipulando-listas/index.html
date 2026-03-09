@@ -8,22 +8,25 @@
 <body>
     <h1>Trabalhando com Listas</h1>
 
-    <h2>Listas Ordenadas</h2>
-    <ol type="i"> <!-- 1 A a I i -->
+    <h2>Podemos adicionar uma lista ordenada para representar passos ou etapas onde a ordem é importante, como no exemplo abaixo:</h2>
+    <ol type="i"> <!-- Com o atributo type, podemos adicionar os seguintes marcadores: 1 A a I i -->
         <li>Acordar</li>
-        <li>Ligar para o João</li>
+        <li>Beber água</li>
+        <li>Praticar exercício</li>
+        <li>Higiene Pessoal</li>
         <li>Tomar café</li>
-        <li>Escovar os dentes</li>
-        <li>Ir para a faculdade</li>
+        <li>Definir 3 prioridades do dia</li>
         <li>Almoçar</li>
-        <li>Ir para o trabalho</li>
-        <li>Voltar para casa</li>
+        <li>Estudar programação</li>
+        <li>Reter o conhecimento</li>
+        <li>Praticar gratidão</li>
         <li>Jantar</li>
         <li>Dormir</li>
+        <!-- Cada um dos itens, são exibido com um número na frente. -->
     </ol>
 
-    <h2>Listas não Ordenadas</h2>
-    <ul type="square"> <!-- disc circle square -->
+    <h2>Podemos adicionar uma lista não ordenada para representar itens onde a ordem não é importante, como no exemplo abaixo:</h2>
+    <ul style="list-style-type: square"> <!-- Com a propriedade CSS style, podemos usar os seguintes marcadores: disc circle square -->
         <li>Pão</li>
         <li>Leite</li>
         <li>Tomate</li>
@@ -33,57 +36,27 @@
         <li>Feijão</li>
     </ul>
 
-    <h2>Minhas linguagens favoritas</h2>
-    <ol>
-        <li>Antigas</li>
-        <ol type="a">
-            <li>Clipper</li>
-            <li>Visual Basic</li>
-            <li>Fortran</li>
-            <li>Delphi</li>
-        </ol>
-        <li>Novas</li>
-        <ol type="a" start="5">
-            <li>PHP</li>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>Kotlin</li>
-        </ol>
-    </ol>
-
-    <h2>Meus jogos favoritos</h2>
-    <ol>
-        <li>NES</li>
-        <ul type="square">
-            <li>Mario Bros</li>
-            <ul type="circle">
-                <li>Mario Bros 3</li>
-                <li>Mario: Lost Levels</li>
-            </ul>
-            <li>Ninja Gaiden</li>
-        </ul>
-        <li>SNES</li>
-        <ul type="square">
-            <li>Mario</li>
-            <li>Donkey Kong</li>
-        </ul>
-        <li>PlayStation</li>
-        <ul type="square">
-            <li>Final Fantasy</li>
-            <li>Castlevania</li>
+    <h2>Também, podemos mesclar as listas uma dentro da outra, como no exemplo abaixo:</h2>
+    <p><b>Meus livros favoritos</b></p>
+    <ol type="2" start="10">
+        <li>Desenvolvimento Pessoal</li>
+        <ul style="list-style-type: square">
+            <li>Essencialismo</li>
+            <li>Poder do Subconsciente</li>
+            <li>Milagra do Amanhã</li>
         </ul>
     </ol>
 
-    <h2>Lista de Definições</h2>
+    <h2>Em lista de definições, a ordem não é, necessariamente, importante e são usadas para definir termos ou conceitos. </h2>
     <dl>
         <dt>HTML</dt>
-        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site, como títulos, textos, formatações, etc.</dd>
 
         <dt>CSS</dt>
-        <dd>Linguagem de marcação para a criação do design de um site.</dd>
-        
+        <dd>Linguagem de marcação para a criação do design de um site, como tamanho de fonte, posicionamento, cores, etc.</dd>
+
         <dt>JavaScript</dt>
-        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+        <dd>Linguagem de programação para a criação de interatividade de um site, como validações, variáveis, popups, etc.</dd>
     </dl>
 </body>
 </html>
