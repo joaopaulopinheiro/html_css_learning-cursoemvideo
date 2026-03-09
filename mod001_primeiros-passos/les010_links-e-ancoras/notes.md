@@ -1,43 +1,40 @@
 # Links e Âncoras
 
-Permite *ligar documentos entre si* e navegar pela web. Pode apontar para **páginas, arquivos, e-mails ou locais no mesmo documento**.
+Permite _ligar documentos entre si_ e navegar pela web. Pode apontar para **páginas, arquivos, e-mails ou locais no mesmo documento**.
 
 ## Elemento &lt;a&gt;
 
-É usado para *criar hiperlinks* e refere-se ao **ponto clicável que estabelece a ligação** entre diferentes conteúdos na rede.
+É usado para _criar hiperlinks_ e refere-se ao **ponto clicável que estabelece a ligação** entre diferentes conteúdos na rede.
 
-```href=""```
+> `href=""`
 
-> Define a referência de hipertexto ou a URL de destino para onde o usuário será enviado ao clicar.
+Define a **referência de hipertexto ou a URL de destino** para onde o usuário será enviado ao clicar.
 
-```hreflang=""```
+> `hreflang=""`
 
-> Serve para indicar o idioma principal do documento vinculado.
+Serve para **indicar o idioma principal** do documento vinculado.
 
-```target=""```
+> `target=""`
 
-> Controla onde o link será aberto. O valor _self abre na mesma aba (padrão), enquanto _blank abre o destino em uma nova janela ou aba do navegador.
+Controla **onde o link será aberto**. O valor `_self` abre na mesma aba (padrão), enquanto `_blank` abre o destino em _uma nova janela ou aba_ do navegador.
 
+> `rel=""`
 
-```rel=""```
-
-> Define a relação entre o documento atual e o destino do link. Exemplos incluem external para sites de terceiros, next/prev para navegação sequencial e nofollow para links não endossados.
-
+Define a **relação entre o documento atual e o destino do link**. Exemplos incluem `external` para sites de terceiros, `next/prev` para navegação sequencial e `nofollow` para links não endossados.
 
 ### Links para Downloads
 
-```download=""```
+> `download=""`
 
-> Atributo que sinaliza ao navegador para baixar o arquivo vinculado em vez de apenas exibi-lo. 
+Atributo que sinaliza ao navegador para **baixar o arquivo vinculado em vez de apenas exibi-lo**.
 
-```type=""```
+> `type=""`
 
-> Informa ao navegador a natureza do arquivo que está sendo acessado ou baixado. Como exemplos de valores temos application/pdf ou audio/mpeg.
+Informa ao navegador **a natureza do arquivo que está sendo acessado ou baixado**. Como exemplos de valores temos _application/pdf_ ou _audio/mpeg_.
 
 No site `iana.org`, tem todos os mediatypes compatíveis.
 
 <!-- INFO: Exemplo -->
-
 ```html
-<a href="caminho/arquivo.pdf" download="nome-do-arquivo.pdf" type="application/pdf">
+<a href="caminho/arquivo.pdf" download="nome-do-arquivo.pdf" type="application/pdf">Link baixável</a>
 ```
