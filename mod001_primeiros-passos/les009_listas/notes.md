@@ -2,32 +2,47 @@
 
 ## Elemento &lt;ol&gt;
 
-Representam listas **onde a sequência dos itens é fundamental para o significado**, como em receitas ou direções. 
+Representam listas **onde a sequência dos itens é fundamental para o significado**, como em receitas ou direções.
 
-```type=""```
+> `type=""`
+****
+Configura o **estilo do marcador** apenas nas listas ordenadas. (1 A a I i)
 
-> Configura o **estilo do marcador** apenas nas listas ordenadas. (1 A a I i)
+> `start=""`
 
-```start=""```
+Define o **número inicial da contagem** em listas ordenadas, aceitando *sempre um valor inteiro*.
 
-> Define o **número inicial da contagem em listas ordenadas**, aceitando *sempre um valor inteiro*.
-
+<!-- INFO: EXEMPLO -->
+```html
+<ol type="A" start="1">
+    <li>Acordar</li>
+    <li>Trabalhar</li>
+    <li>Dormir</li>
+<ol>
+```
 
 ## Elemento &lt;ul&gt;
 
-Representam listas de itens cuja ordem **não possui valor numérico** e não é importante. 
+Representam listas de itens cuja ordem **não possui valor numérico** e não é importante.
 
-```list-style-type:```
+> `list-style-type:`
 
-> Configura o **estilo do marcador** apenas nas listas não ordenadas, através do CSS. (disc square circle)
+Configura o **estilo do marcador** apenas nas listas não ordenadas, através do CSS. (disc square circle)
 
+<!-- INFO: EXEMPLO -->
+```html
+<ul style="list-style-type: disc">
+    <li>Café</li>
+    <li>Chá</li>
+    <li>Leite</li>
+<ul>
+```
 
 ## Elemento &lt;li&gt;
 
-**Identifica cada item** dentro das listas.
+Identifica **cada item** dentro das listas.
 
 <!-- INFO: Exemplo -->
-
 ```html
 <h1>Meus livros favoritos</h1>
 <ol type="2" start="10">
@@ -40,16 +55,15 @@ Representam listas de itens cuja ordem **não possui valor numérico** e não é
 </ol>
 ```
 
-
 ## Elemento &lt;dl&gt;
 
-Estrutura que funciona como um dicionário, **relacionando grupos de termos e descrições**.
+Lista que funciona como um dicionário, **relacionando grupos de termos e descrições**.
 
-### Termo de Definição (&lt;dt&gt;)
+### Elemento &lt;dt&gt;: [Termo de Definição]
 
 Especifica **o nome ou o termo a ser definido** dentro de uma lista de definição.
 
-### Descrição de Definição (&lt;dd&gt;)
+### Elemento &lt;dd&gt;: [Descrição de Definição]
 
 Provê a **definição, valor ou detalhe associado ao termo** anterior em uma lista de descrição.
 
@@ -62,7 +76,7 @@ Provê a **definição, valor ou detalhe associado ao termo** anterior em uma li
 
     <dt>Leite</dt>
     <dd>- Bebida gelada e de cor branca</dd>
-    
+
     <dt>Chá</dt>
     <dd>- Bebida quente/gelada e colorida.</dd>
 </dl>

@@ -128,3 +128,35 @@ Representa **informações de contato, como endereço físico, e-mail, telefone 
   <p>Telefone: (00) 94002-8922</p>
 </address>
 ```
+
+<!-- Perguntas (SRS):
+
+01.  No contexto do desenvolvimento web com HTML5, o que define o conceito central de semântica?
+
+R: O foco no significado e na função dos elementos para estruturar o conteúdo.
+
+02. Qual é a diferença de uso entre os elementos <em> e <i> no HTML5 visto que ambos apresentam o texto em itálico?
+
+R: <em> indica ênfase tonal ou estresse no texto, enquanto <i> representa termos técnicos, pensamentos ou palavras em outros idiomas.
+
+03. De acordo com o MDN, qual é um caso de uso válido para o elemento <u> no HTML5?
+
+R: Marcar erros ortográficos em um texto.
+
+04. Qual é a principal diferença de aplicação entre <blockquote> e <q>?
+
+R: <blockquote> é usado para citações longas (em bloco), enquanto <q> é para citações curtas inseridas na linha do texto.
+
+05.  Qual é a diferença entre o atributo 'cite' e o elemento <cite> quando usado nas tags `<blockquote>` ou `<q>`?
+
+R: O atributo contém uma URL para a fonte, enquanto o elemento contém o título da obra ou nome da fonte em texto.
+
+06.  Para que serve o atributo opcional 'title' no elemento <abbr>?
+
+R: Para fornecer a expansão completa da abreviação ou acrônimo.
+
+07. Segundo as recomendações do MDN, qual é o uso correto do elemento <address>?
+
+R: Fornecer informações de contato para o autor ou proprietário de um documento ou artigo
+
+-->
