@@ -12,19 +12,13 @@ A URL é o **endereço completo e único** que você digita no navegador para **
 
 <!-- Perguntas (SRS):
 
-01. Qual é a principal diferença entre um domínio e uma hospedagem?
+01.  Um URL (Uniform Resource Locator) é o ______ completo usado para localizar um ______ na web.
 
-Resposta: O domínio é o nome/endereço único do site, enquanto a hospedagem é o espaço no servidor onde os arquivos do site ficam armazenados e acessíveis.
+Resposta: endereço, recurso
 
-02. O que é um URL (Uniform Resource Locator)?
+02. Sobre os tipos de domínios na internet, selecione as alternativas corretas:
 
-Resposta:É o endereço completo de um recurso na web usado para localizar uma página ou recurso específico na web.
-
-03. O que é um TLD (Top-Level Domain)?
-
-Resposta: É a parte final de um nome de domínio, como .com, .org ou .br.
-
-04. Qual é a diferença entre um gTLD e um ccTLD?
-
-Resposta: Um gTLD é genérico (como .com, .net, .org), enquanto um ccTLD designa um país específico (como .br, .us).
+A) gTLD são domínios genéricos como .com, .org e .net.
+B) ccTLD são domínios associados a países específicos.
+D) .us é um exemplo de ccTLD.
  -->

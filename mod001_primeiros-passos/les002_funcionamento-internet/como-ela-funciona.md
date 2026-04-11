@@ -34,43 +34,38 @@ O navegador recebe esses pacotes e **começa a montar o site na tela.** Se o sit
 
 <!-- Perguntas (SRS):
 
-01. Qual é a linguagem fundamental que um computador entende, resumida a apenas dois estados?
+01.  O computador é um equipamento eletrônico que processa informações em formato binário. Em circuitos digitais, como os sinais binários (0 e 1) são representados fisicamente?
 
-Resposta: Sinais elétricos representados por 0s e 1s, conhecidos como bits (dígitos binários).
+Resposta: Ondas quadradas
 
-02. Os sinais elétricos que representam os bits dentro de um computador são também conhecidos como onda _____.
+02. Na computação, os múltiplos de medidas como o Kilobyte não seguem o padrão decimal de 1000 unidades. Por que a referência de cálculo é o número 1024?
 
-Resposta: Quadrada ou Digital.
+Resposta: Porque o sistema binário utiliza potências de base 2 (2^10)
 
-03. Um conjunto de 8 bits, que é unidade básica de dados digitais, é chamado de _____.
+03. Qual é o principal meio físico responsável pela maioria das transmissões intercontinentais de dados na internet?
 
-Resposta: Byte
+Resposta: Cabos de fibra óptica submarinos.
 
-04. Ao contrário da crença popular, qual é o principal meio físico para a maioria das transmissões intercontinentais de dados?
+04. Complete a lacuna: O dispositivo responsável por realizar modulação e demodulação de sinais é chamado de ______.
 
-Resposta: Cabos de fibra óptica submarinos. Transmitem mais de 95% de todos os dados mundiais.
+Resposta: MODEM.
 
-05. O processo de converter um sinal digital (onda quadrada) em um sinal analógico (onda senoidal) é chamado de _____.
+05. Sobre a função de um roteador na internet, selecione as alternativas corretas:
 
-Resposta: Modulação
+A) Determinar a melhor rota para pacotes de dados
+B) Conectar diferentes redes entre si
+D) Encaminhar pacotes entre redes diferentes
 
-06. Qual aparelho realiza as funções de modulação e demodulação para permitir a comunicação entre redes?
+06. Sobre o modelo cliente-servidor, analise as afirmações:
 
-Resposta: MODEM (MOdulador/DEModulador).
+I. O cliente é responsável por solicitar serviços ou recursos.
+II. O servidor responde às requisições enviando dados ou executando serviços.
 
-07. Qual é a função principal de um roteador na internet?
-
-Resposta: Decidir a melhor rota para os pacotes de dados viajarem pela rede, evitando congestionamentos.
-
-08.No modelo de comunicação da internet, quais são os papeis do 'cliente' e do 'servidor'?
-
-Resposta: O cliente é o dispositivo que solicita um serviço ou conteúdo, como acessar um site. Já o servidor é a máquina que armazena e fornece os dados solicitados.
-
-09. O DNS traduz um _____ legível por humanos (como google.com) para o _____ correspondente do servidor.
+07.  O DNS traduz um _____ legível por humanos (como google.com) para o _____ correspondente do servidor.
 
 Resposta: dominio, endereço IP
 
-10. Quando você digita uma URL no navegador, qual é o primeiro local verificado para encontrar o IP correspondente?
+08.  Quando você digita uma URL no navegador, qual é normalmente o primeiro local verificado para encontrar o endereço IP correspondente?
 
-Resposta: O cache do próprio navegador.
+Resposta: Cache do navegador
 -->

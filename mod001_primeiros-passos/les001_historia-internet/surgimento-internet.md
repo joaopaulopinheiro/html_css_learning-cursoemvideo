@@ -53,41 +53,45 @@ Em paralelo, o primeiro navegador popular, o **Mosaic**, iria sendo criado por *
 
 Resposta: Durante a Guerra Fria, em um contexto de disputa tecnológica e militar entre os Estados Unidos e a União Soviética.
 
-02. Em 1957, o lançamento do satélite soviético ____, catalisou a criação da ARPA, a agência precursora da internet.
+02. Verdadeiro ou Falso: O satélite Sputnik lançado em 1957 possuía tecnologia de espionagem fotográfica.
 
-Resposta: Sputnik
+Resposta: Falso
 
-03. Qual foi a principal vulnerabilidade das redes de comunicação que o conceito de rede descentralizada visava resolver?
+03. Qual problema das redes centralizadas levou ao desenvolvimento do conceito de rede descentralizada?
 
 Resposta: As comunicações eram centralizadas, o que significava que um ataque a um ponto principal poderia colapsar toda a rede.
 
-04. A inovação teórica fundamental que permitiu a existência da internet, quebrando dados em pequenas unidades para transmissão, é chamada de _____.
+04. Complete a lacuna: O modelo de transmissão de dados em que a informação é dividida em pequenas partes é chamado de chaveamento de _______.
 
-Resposta: Comutação de pacotes (packet switching)
+Resposta: Pacotes
 
-05. Qual foi o nome da primeira rede de comutação de pacotes, considerada a precursora da internet, criada em 1969?
+05. Qual foi o nome da primeira rede de comutação de pacotes criada em 1969 e considerada precursora da internet?
 
 Resposta: ARPANET (Advanced Research Projects Agency Network).
 
-06. Qual foi a primeira mensagem enviada com sucesso na história da ARPANET em 29 de outubro de 1969?
+06. Durante a primeira tentativa de envio de uma mensagem entre a UCLA e o SRI em 1969, o sistema falhou após quais caracteres?
 
-Resposta: A mensagem foi "LO", uma tentativa fracassada de enviar a palavra "LOGIN".
+Resposta: A letras L e O, uma tentativa fracassada de enviar a palavra "LOGIN".
 
-07. Qual problema a criação do conjunto de protocolos TCP/IP visava resolver e quem foram seus principais desenvolvedores?
+07. O que diferenciava o protocolo TCP/IP, criado por Vint Cerf e Robert Kahn, do antigo protocolo NCP?
 
-R: A dificuldade de computadores de fabricantes diferentes se comunicarem entre si (falta de interconexão). Robert Kahn e Vint Cerf.
+Resposta: Permitia que computadores de fabricantes diferentes se comunicarem entre si de forma mais robusta e identificável.
 
-08. Qual é a função principal do protocolos no conjunto TCP/IP?
+08.  No conjunto de protocolos TCP/IP, qual é a função de cada protocolo?
 
 Resposta: O IP identifica a localização das máquinas na rede, ou seja, seu endereço. Já o TCP, garante que os pacotes de dados cheguem ao destino de forma íntegra e na ordem correta.
 
-09. Quais são as três tecnologias fundamentais criadas por Tim Berners-Lee que formam a base da World Wide Web?
+09. Complete a lacuna: Os três pilares da World Wide Web, desenvolvidos por Tim-Berners-Lee em 1992, são:
 
-Resposta: A linguagem HTML (HyperText Markup Language), o protocolo HTTP (HyperText Transfer Protocol) e o sistema de endereçamento URL (Uniform Resource Locator).
+1. ______ (linguagem de marcação)
+2. ______ (protocolo de comunicação)
+3. ______ (sistema de endereçamento)
 
-10. Como era a experiência de usar a internet antes da popularização dos navegadores gráficos?
+Resposta: HTML / HTTP / URL
 
-Resposta: Era baseada apenas em texto, exibido em telas pretas.
+10.  Verdadeiro ou Falso: O protocolo Gopher possuía interface gráfica avançada com suporte a vídeos e animações.
+
+Resposta: Falso
 
 11. Qual foi o papel do navegador Mosaic na popularização da internet durante a década de 1990?
 
