@@ -73,24 +73,45 @@ O JavaScript é, de fato, uma **Linguagem de Programação**. Seu foco é na **i
 
 <!-- Perguntas (SRS):
 
-01. Como funciona o HTML? Qual é a estrutura básica de um elemento HTML?
+01. Sobre o papel do HTML na construção de páginas web, selecione as alternativas corretas:
 
-Ele funciona com base em tags, que geralmente vêm em pares: uma tag de abertura e uma tag de fechamento (identificada por uma barra).
+A) Estruturar o conteúdo da página
+C) Organizar elementos como textos, imagens e vídeos
+E) Utilizar tags para marcar elementos
 
-Exemplo de estrutura: <tag atributo="valor">Conteúdo</tag>
+02. Verdadeiro ou Falso: No HTML, todas as tags possuem obrigatoriamente abertura e fechamento.
 
-02. Como funciona o CSS? Qual é a estrutura básica de uma declaração CSS?
+Resposta: Falso
 
-Ao contrário do HTML, o CSS funciona com base em seletores, propriedades e valores.
+03. Sobre a função do CSS em uma página web, selecione as alternativas corretas:
 
-Exemplo de estrutura:
+A) Definir cores e fontes
+B) Controlar o layout visual
+D) Aplicar estilos usando seletores
 
-selector {               h1 {
-    property: value;       font-family: Arial;
-   |- declaration -|       font-size: 20pt;
-}
+04. Complete a lacuna: No CSS, o termo que vem antes das chaves e define quais elementos serão estilizados é chamado de ______.
 
-03. Qual é o principal papel do navegador web no ecossistema da internet?
+Resposta: Seletor
 
-Interpretar o código (HTML, CSS, JS) e renderizar o resultado visual para o usuário.
+05. Na regra CSS p { color: blue; }, o termo color é:
+
+Resposta: Uma propriedade
+
+06. Complete a lacuna: No CSS, o conjunto formado por uma propriedade e seu valor (ex: color: blue;) é chamado de ______.
+
+Resposta: Declaração.
+
+07. O que caracteriza o JavaScript como uma linguagem de programação?
+
+A) Uso de variáveis
+B) Estruturas condicionais
+C) Execução de lógica e cálculos
+E) Manipulação de objetos
+
+08. Sobre o papel do navegador web, selecione as alternativas corretas:
+
+A) Interpretar HTML, CSS e JavaScript
+B) Renderizar a interface visual para o usuário
+D) Executar scripts JavaScript
+E) Converter código em interface visual
 -->
