@@ -81,3 +81,30 @@ Provê a **definição, valor ou detalhe associado ao termo** anterior em uma li
     <dd>- Bebida quente/gelada e colorida.</dd>
 </dl>
 ```
+
+<!-- Perguntas (SRS)
+
+01. Qual é a principal diferença conceitual entre o uso de uma lista ordenada (<ol>) e uma lista não ordenada (<ul>)?
+
+Resposta: A lista ordenada é utilizada quando a sequência ou hierarquia dos itens é relevante para o sentido do conteúdo.
+
+02. Para criar uma lista com algarismos romanos em maiúsculas (I, II, III...), o valor do atributo type deve ser ______.
+
+Resposta: I
+
+03. Na estrutura de uma Lista de Definição (<dl>), qual é a função da tag <dd>?
+
+Resposta: Apresentar a descrição ou detalhamento do termo previamente declarado.
+
+04. Como criar uma lista ordenada com numeração romana maiúscula iniciando no item 5?
+
+Resposta: <ol type="I" start="5">
+
+05. Qual é a forma recomendada de definir o estilo do marcador de uma lista <ul>?
+
+Resposta: Através da propriedade CSS list-style-type
+
+06. Complete a lacuna: 'Na estrutura de uma lista de definição, cada termo a ser definido é marcado pela tag ____'.
+
+Resposta: <dt>
+-->

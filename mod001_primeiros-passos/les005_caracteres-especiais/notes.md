@@ -44,11 +44,25 @@ São ícones inseridos via **códigos Unicode hexadecimais**. O site `emojipedia
 
 <!-- Perguntas (SRS):
 
-01. Quais são os padrões de caracteres usados ​​para representar símbolos reservados ou especiais em HTML?
+01. No desenvolvimento HTML, por que o uso de múltiplos espaços ou várias quebras de linha no código-fonte não resulta em espaços adicionais no navegador?
 
-R: Entidades HTML
+Resposta: Porque o HTML interpreta múltiplos espaços como um único espaço
 
-02. Ao converter um código emoji Unicode (por exemplo, U+1F604) para HTML, qual prefixo deve ser usado?
+02. Quais são os padrões de caracteres usados para representar símbolos reservados ou especiais em HTML?
 
-R: O prefixo &#x. O prefixo &#x é usado para formatos decimais.
+Resposta: Entidades HTML
+
+03. Analise as afirmações sobre entidades HTML para letras gregas:
+
+I. Δ produz Δ
+II. δ produz δ
+III. Entidades HTML diferenciam maiúsculas de minúsculas
+
+04. Para inserir um emoji via código hexadecimal no HTML, utiliza-se o prefixo: _____
+
+Resposta: &#x.
+
+05. Qual caractere especial deve obrigatoriamente iniciar qualquer entidade HTML?
+
+Resposta: &
 -->

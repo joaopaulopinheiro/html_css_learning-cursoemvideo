@@ -91,37 +91,50 @@ Nessa situação, basta inserir, no atributo src da tag, o a **url pública do a
 
 Sites próprios para favicons são: `iconarchive.com, favicon.cc e favicon.io`
 
-<!-- Perguntas (SRS):01.
+<!-- Perguntas (SRS):
 
-01. Por que não é profissional simplesmente copiar e usar qualquer imagem encontrada no Google em um site comercial?
+01. Qual é a recomendação principal para evitar problemas jurídicos com direitos autorais ao usar imagens da internet?
 
-R: Devido a leis de direitos autorais que podem resultar em sanções legais para o desenvolvedor ou cliente.
+Resposta: Utilizar apenas imagens de domínio público ou com autorização (ex: Creative Commons)
 
-02. Por que é importante redimensionar imagens para o tamanho exato que aparecerão no site em vez de usar a versão original gigante?
+02. O que acontece se você definir a largura de uma imagem gigante via CSS em vez de redimensionar o arquivo original?
 
-R: Para reduzir o peso do arquivo em bytes, economizar largura de banda e acelerar o carregamento da página.
+Resposta: O navegador baixa o arquivo original pesado, prejudicando o tempo de carregamento e o SEO.
 
-03. Em relação ao SEO, por que nomes de arquivos como 'foto1.jpg' são evitados?
+03. Analise as afirmações:
 
-R: Nomes descritivos ajudam motores de busca a entender o conteúdo da imagem (ex: 'cachorro-correndo.jpg').
+I. Imagens muito pesadas prejudicam o tempo de carregamento
+II. O Google considera performance como fator de ranking
+III. Sites lentos podem perder posições nos resultados de busca
 
-04. Qual a principal diferença técnica entre os formatos PNG e JPEG em relação ao fundo da imagem?
+04. Em qual situação o formato PNG é preferível ao JPEG em um projeto web?
 
-R: O formato PNG suporta transparência, enquanto o JPEG não.
+Resposta: Quando a imagem possui muitas cores e gradientes
 
-05. Qual é a recomendação para o nível de compressão JPEG em sites profissionais para equilibrar qualidade e peso?
+05. A recomendação de compressão JPEG para sites profissionais geralmente fica entre _____ e _____.
 
-R: Entre 70% e 90%.
+Resposta: 70% e 90%
 
-06. Qual a desvantagem de usar imagens externas (de outros servidores) em seu site?
+06. Por que nomes de arquivos como "foto1.jpg" são evitados em termos de SEO?
 
-R: Se o servidor externo cair, a imagem deixará de carregar em seu site.
+Resposta: Porque nomes descritivos ajudam motores de busca a entender o conteúdo da imagem.
 
-07. Quais são os formatos de arquivo mais comuns para armazenar um favicon?
+07. Se uma imagem "foto.jpg" está dentro da pasta "midia", o valor correto do atributo src é: _____
 
-R: ICO, PNG e GIF.
+Resposta: midia/foto.jpg
 
-08. Qual o tamanho padrão (em pixels) de um favicon comum?
+08. Quais são os formatos mais comuns para armazenar um favicon?
 
-R: 16 x 16 pixels.
+A) ICO
+B) PNG
+C) GIF
+
+09. <img src="img123.jpg">
+
+Qual melhoria mais adequada para SEO?
+
+X A) Usar PNG
+V B) Renomear para algo descritivo
+X C) Diminuir a resolução via CSS
+X D) Adicionar mais imagens
 -->

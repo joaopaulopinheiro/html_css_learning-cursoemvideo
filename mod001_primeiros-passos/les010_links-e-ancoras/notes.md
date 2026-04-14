@@ -38,3 +38,35 @@ No site `iana.org`, tem todos os mediatypes compatíveis.
 ```html
 <a href="caminho/arquivo.pdf" download="nome-do-arquivo.pdf" type="application/pdf">Link baixável</a>
 ```
+
+<!-- Perguntas (SRS)
+
+01. Em uma estrutura de pastas em um servidor Linux, o que os símbolos ../ representam quando usados no atributo href?
+
+Resposta: Indicam subir um nível na hierarquia de pastas.
+
+02. Qual é a utilidade do atributo hreflang em uma âncora
+
+Resposta: Indicar o idioma do documento de destino.
+
+03. Verdadeiro ou Falso: O atributo target="_self" é o comportamento padrão das âncoras no HTML.
+
+Resposta: Verdadeiro
+
+04. Complete a lacuna: Ao organizar um site, o link para a próxima página de um artigo deve conter o atributo rel="________" por questões de semântica.
+
+Resposta: next
+
+05. Ao configurar um link externo para abrir em nova aba e indicar sua natureza, qual combinação é recomendada?
+
+B) target="_blank" e rel="external"
+C) target="_blank" e rel="noopener noreferrer"
+
+06. Complete a lacuna: Os Media Types como application/pdf devem ser aplicados no atributo ______ da tag <a>.
+
+Resposta: type
+
+07. Para que um link de download funcione corretamente e informe o tipo de arquivo, quais atributos devem ser usados?
+
+Resposta: download e type="application/pdf"
+-->

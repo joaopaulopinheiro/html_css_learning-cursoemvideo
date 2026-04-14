@@ -133,30 +133,41 @@ Representa **informações de contato, como endereço físico, e-mail, telefone 
 
 01.  No contexto do desenvolvimento web com HTML5, o que define o conceito central de semântica?
 
-R: O foco no significado e na função dos elementos para estruturar o conteúdo.
+Resposta: O foco no significado e na função dos elementos para estruturar o conteúdo.
 
-02. Qual é a diferença de uso entre os elementos <em> e <i> no HTML5 visto que ambos apresentam o texto em itálico?
+02. Verdadeiro ou Falso: O uso de HTML semântico melhora o ranqueamento de um site em mecanismos de busca como o Google.
 
-R: <em> indica ênfase tonal ou estresse no texto, enquanto <i> representa termos técnicos, pensamentos ou palavras em outros idiomas.
+Resposta: Verdadeiro
 
-03. De acordo com o MDN, qual é um caso de uso válido para o elemento <u> no HTML5?
+03.Qual é a diferença de uso entre os elementos <em> e <i> no HTML5?
 
-R: Marcar erros ortográficos em um texto.
+Resposta: <em> indica ênfase no texto, enquanto <i> representa termos técnicos ou contextuais.
 
-04. Qual é a principal diferença de aplicação entre <blockquote> e <q>?
+04. De acordo com o MDN, qual é um caso de uso válido para o elemento <u> no HTML5?
 
-R: <blockquote> é usado para citações longas (em bloco), enquanto <q> é para citações curtas inseridas na linha do texto.
+Resposta: Marcar erros ortográficos em um texto.
 
-05.  Qual é a diferença entre o atributo 'cite' e o elemento <cite> quando usado nas tags `<blockquote>` ou `<q>`?
+05. Para escrever fórmulas como H₂O e x² em HTML, quais tags devem ser usadas respectivamente?
 
-R: O atributo contém uma URL para a fonte, enquanto o elemento contém o título da obra ou nome da fonte em texto.
+Resposta: <sub> e <sup>
 
-06.  Para que serve o atributo opcional 'title' no elemento <abbr>?
+06. Verdadeiro ou Falso: A tag `<del>` deve ser usada para indicar um texto que foi removido e não deve ser mais considerado pelo leitor.
 
-R: Para fornecer a expansão completa da abreviação ou acrônimo.
+Resposta: Verdadeiro
 
-07. Segundo as recomendações do MDN, qual é o uso correto do elemento <address>?
+07. Qual é a principal diferença de aplicação entre <blockquote> e <q>?
 
-R: Fornecer informações de contato para o autor ou proprietário de um documento ou artigo
+Resposta: <blockquote> é usado para citações longas (em bloco), enquanto <q> é para citações curtas inseridas na linha do texto.
 
+08. Complete a lacuna: No uso da tag <blockquote>, o atributo utilizado para indicar a URL da fonte original é ______.
+
+Resposta: cite
+
+09. Complete a lacuna: Para fornecer o significado completo de uma sigla na tag <abbr>, deve-se usar o atributo ______.
+
+Resposta: title
+
+10. A tag ______ é utilizada para fornecer informações de contato (físico ou digital) relacionadas ao autor ou proprietário de um documento.
+
+Resposta: <address>
 -->

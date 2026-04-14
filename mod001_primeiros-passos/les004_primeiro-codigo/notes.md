@@ -73,3 +73,10 @@ Define uma quebra temática entre parágrafos, **geralmente exibida como uma lin
 ### Elemento < p >
 
 Usado para **definir parágrafos de texto**. Organizar o conteúdo em parágrafos torna a leitura mais acessível para todos os usuários.
+
+<!-- Perguntas (SRS)
+
+01. A meta tag com o atributo charset="utf-8" serve para garantir a correta __________ dos caracteres, incluindo acentos e símbolos especiais.
+
+Resposta: codificaçã
+-->
