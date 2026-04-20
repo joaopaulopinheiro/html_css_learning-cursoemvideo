@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXE014 - Estilos Locais / Internos</title>
+    <style>
+        body {
+            background-color: rgba(240, 128, 128, 0.305);
+        }
+
+        code {
+          color: purple;
+        }
+
+        h1 {
+          color: brown;
+        }
+
+        p {
+            font-size: 18px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+  <h1>Estilo Interno (Na mesma página)</h1>
+  <p style="color: black;">Os estilos internos são definidos na seção <code>&lt;head&gt;</code> do documento HTML usando a tag <code>&lt;style&gt;</code>. Eles se aplicam a toda a página e são mais organizados do que os estilos inline.</p>
+
+  <h2>Exemplo de estilo interno:</h2>
+  <p>Este parágrafo tem um estilo interno aplicado, com cor azul e tamanho de fonte de 18 pixels.</p>
+  <p>Este parágrafo possui essa mesma formatação, através do elemento style.</p>
+
+  <hr>
+  <p style="font-size: 20px; text-align: center; color: black;"><strong>Sua principal desvantagem é que ocupa muito espaço no código HTML.</strong><br>Além disso, o estilo inline possui maior especificidade do que o local, por isso este parágrafo não é azul.</p>
+</body>
+</html>

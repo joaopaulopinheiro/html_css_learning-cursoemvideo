@@ -62,3 +62,51 @@ Utilizado para **incorporar vídeos de serviços externos**, como YouTube ou Vim
 ### Formatos de Vídeo
 
 Para garantir que o vídeo seja reproduzido em qualquer navegador moderno, deve-se disponibilizar os formatos **MP4 ou M4V**, **WebM** e **OGG**.
+
+<!-- Perguntas (SRS)
+
+01. Ao utilizar a tag <picture>, como os elementos <source> devem ser organizados para garantir o comportamento correto de carregamento?
+
+Resposta: Em ordem decrescente de max-width, do maior para o menor
+
+02. Ao definir preload="metadata" em um elemento <audio>, qual comportamento ocorre?
+
+Resposta: Apenas informações como duração e dimensões são carregadas.
+
+03. Verdadeiro ou Falso: Sobre o atributo autoplay em vídeos HTML5:
+
+I. Funciona automaticamente em todos os navegadores sem restrições
+II. Geralmente requer que o vídeo esteja mudo (muted)
+
+04. Na tag <video>, o atributo usado para definir a imagem exibida antes do play é: ______
+
+Resposta: poster
+
+05. Dentro da tag <source> usada para imagens responsivas, qual atributo define os arquivos de imagem disponíveis?
+
+Resposta: srcset
+
+06. Ao incorporar um vídeo do YouTube em HTML, a tag normalmente utilizada é: ______
+
+Resposta: iframe
+
+07. Ao definir max-width em media queries para imagens responsivas, qual margem de segurança aproximada é recomendada em relação ao tamanho real da imagem?
+
+Resposta: Cerca de 50px acima do tamanho exato da imagem.
+
+08. Na tag <source> para imagens, o atributo que define condições como largura máxima da tela é: ______
+
+Resposta: media
+
+09. Qual atributo deve estar presente na tag <audio> para que o usuário visualize os controles de reprodução?
+
+Resposta: controls
+
+10. No elemento <picture>, qual tag deve aparecer por último como fallback padrão?
+
+Resposta: A tag <img>, como fallback
+
+11. Se um navegador não suportar reprodução de áudio em HTML, o que deve ser oferecido como alternativa ao usuário?
+
+Resposta: Um link direto para o usuário baixar o arquivo.
+-->
