@@ -129,9 +129,11 @@ Representa **informações de contato, como endereço físico, e-mail, telefone 
 </address>
 ```
 
+![Infográfico Semântica e Formatação](img/infg_semantica_e_formatacao.png)
+
 <!-- Perguntas (SRS):
 
-01.  No contexto do desenvolvimento web com HTML5, o que define o conceito central de semântica?
+1.   No contexto do desenvolvimento web com HTML5, o que define o conceito central de semântica?
 
 Resposta: O foco no significado e na função dos elementos para estruturar o conteúdo.
 

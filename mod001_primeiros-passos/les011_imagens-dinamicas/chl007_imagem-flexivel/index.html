@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHL007 - Imagem Flexível</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <h1>Imagem Flexível</h1>
+  <p>Uma imagem flexível é aquela que se adapta ao tamanho da tela ou às condições do dispositivo. Experimente aplicar o tamanho da sua janela para ver a imagem em diferentes tamanhos. &#x1F92F;</p>
+
+  <picture>
+    <source media="(max-width: 790px)" srcset="img/paisagem-p.png" type="image/png">
+    <!-- É recomendado adicionar 50px a mais do que o tamanho da imagem. -->
+    <source media="(max-width: 1250px)" srcset="img/paisagem-m.png" type="image/png">
+    <img src="img/paisagem-g.png" alt="Paisagem flexível">
+  </picture>
+</body>
+</html>

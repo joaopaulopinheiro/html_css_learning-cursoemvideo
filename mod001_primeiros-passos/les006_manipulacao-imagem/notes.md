@@ -91,9 +91,11 @@ Nessa situação, basta inserir, no atributo src da tag, o a **url pública do a
 
 Sites próprios para favicons são: `iconarchive.com, favicon.cc e favicon.io`
 
+![Infográfico Imagens e Favicons](img/infg_imagens_e_favicon.png)
+
 <!-- Perguntas (SRS):
 
-01. Qual é a recomendação principal para evitar problemas jurídicos com direitos autorais ao usar imagens da internet?
+1.  Qual é a recomendação principal para evitar problemas jurídicos com direitos autorais ao usar imagens da internet?
 
 Resposta: Utilizar apenas imagens de domínio público ou com autorização (ex: Creative Commons)
 
